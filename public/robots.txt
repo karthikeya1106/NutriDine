@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /food-log
+Disallow: /meal-plan
+Disallow: /recipes
+Disallow: /food-ingredients
+Disallow: /profile
+Disallow: /conditions
+
+# Allow landing page and about page to be indexed
+Allow: /about

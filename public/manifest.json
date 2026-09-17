@@ -1,0 +1,46 @@
+{
+  "name": "NutriDine",
+  "short_name": "NutriDine",
+  "description": "Personalised nutrition for your health conditions. 3,275 recipes. 41 conditions supported.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ff6b35",
+  "orientation": "portrait-primary",
+  "categories": ["health", "food", "lifestyle"],
+  "icons": [
+    {
+      "src": "/nutridine-logoorg.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nutridine-logoorg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Meal Plan",
+      "short_name": "Plan",
+      "url": "/meal-plan",
+      "description": "View your personalised meal plan"
+    },
+    {
+      "name": "Recipes",
+      "short_name": "Recipes",
+      "url": "/recipes",
+      "description": "Browse 3,275 condition-safe recipes"
+    },
+    {
+      "name": "Food Log",
+      "short_name": "Log",
+      "url": "/food-log",
+      "description": "Track what you eat today"
+    }
+  ]
+}

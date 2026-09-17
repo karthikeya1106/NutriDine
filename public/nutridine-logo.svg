@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Orange rounded square background -->
+  <rect width="200" height="200" rx="40" ry="40" fill="#F96300"/>
+
+  <!-- ===== SPOON (left, tilted slightly inward) ===== -->
+  <!-- Spoon bowl -->
+  <ellipse cx="68" cy="62" rx="13" ry="15" fill="white" transform="rotate(-10, 68, 62)"/>
+  <!-- Spoon handle -->
+  <rect x="63" y="75" width="9" height="52" rx="4.5" fill="white" transform="rotate(-10, 67, 100)"/>
+
+  <!-- ===== CENTER TALL LEAF ===== -->
+  <!-- Main large leaf -->
+  <path d="M100 28 C108 55, 112 85, 100 138 C88 85, 92 55, 100 28Z" fill="white"/>
+  <!-- Leaf vein line (subtle cutout to show leaf detail) -->
+  <path d="M100 38 C101 60, 101 90, 100 128" stroke="#F96300" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- ===== FORK (right, tilted slightly inward) ===== -->
+  <!-- Fork tines (3 prongs) -->
+  <rect x="128" y="38" width="5.5" height="30" rx="2.5" fill="white" transform="rotate(10, 131, 53)"/>
+  <rect x="139" y="35" width="5.5" height="30" rx="2.5" fill="white" transform="rotate(10, 142, 50)"/>
+  <rect x="150" y="38" width="5.5" height="30" rx="2.5" fill="white" transform="rotate(10, 153, 53)"/>
+  <!-- Fork shank merging the tines -->
+  <path d="M129 68 Q132 82 133 90 L133 128 Q133 133 138 133 Q143 133 143 128 L143 90 Q144 82 147 68 Q142 73 138 73 Q134 73 129 68Z" fill="white" transform="rotate(10, 138, 100)"/>
+
+  <!-- ===== BOTTOM LEFT SMALL LEAF ===== -->
+  <path d="M58 148 C48 140, 44 128, 55 122 C57 133, 62 140, 70 144 C65 148, 60 150, 58 148Z" fill="white"/>
+
+  <!-- ===== BOTTOM RIGHT SMALL LEAF ===== -->
+  <path d="M142 148 C152 140, 156 128, 145 122 C143 133, 138 140, 130 144 C135 148, 140 150, 142 148Z" fill="white"/>
+</svg>
